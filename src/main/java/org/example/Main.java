@@ -15,8 +15,6 @@ public class Main {
         DoctorOperation doctorOperation = new DoctorOperation(d);
         doctorOperation.heartOperation();
         */
-//        DoctorOperation doctorOperation = injector.getInstance(DoctorOperation.class);
-//        doctorOperation.heartOperation();
         DoctorOperation d = injector.getInstance(DoctorOperation.class);
         d.heartOperation();
 
